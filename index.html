@@ -112,6 +112,23 @@
   .about-me-container .photo img{
     height: 135%;
   }
+           .logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.site-logo {
+  width: 73px;
+ 
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+    max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
 }
 
 
@@ -489,7 +506,10 @@
 <body>
 
 <header>
+    <div class="logo-title">
+    <img src="images/logo.jpg" alt="Logo" class="site-logo" />
   <h1>Shree-Kalakar-Ri</h1>
+    </div>
   <nav>
     <a href="#Photo" tabindex="0">Photo Gallery</a>
     <a href="#Contact" tabindex="0">Contact Us</a>
